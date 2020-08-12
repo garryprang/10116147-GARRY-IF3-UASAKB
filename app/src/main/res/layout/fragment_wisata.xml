@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:stretchColumns="1"
+    android:background="@drawable/wisata"
+    tools:context=".ui.wisata.WisataFragment">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60px"
+        android:background="#FFFFFF">
+    </RelativeLayout>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/btn_kb"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:background="@drawable/kb"
+            android:drawablePadding="15sp"
+            android:paddingLeft="10sp"
+            android:paddingTop="150sp"
+            android:paddingRight="15sp"
+            android:text="KOTA BANDUNG"
+            android:textColor="#1c252c"
+            android:textSize="13dp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btn_kbb"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:background="@drawable/kbb"
+            android:drawablePadding="15sp"
+            android:paddingLeft="10sp"
+            android:paddingTop="150sp"
+            android:paddingRight="15sp"
+            android:text="KABUPATEN BANDUNG"
+            android:textColor="#1c252c"
+            android:textSize="13dp"
+            android:textStyle="bold" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/btn_kbbb"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:background="@drawable/kbbb"
+            android:drawablePadding="15sp"
+            android:paddingLeft="10sp"
+            android:paddingTop="150sp"
+            android:paddingRight="15sp"
+            android:text="KABUPATEN
+             BANDUNG BARAT"
+            android:textColor="#1c252c"
+            android:textSize="13dp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btn_kcimahi"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:background="@drawable/kcimahi"
+            android:drawablePadding="15sp"
+            android:paddingLeft="10sp"
+            android:paddingTop="150sp"
+            android:paddingRight="15sp"
+            android:text="KOTA CIMAHI"
+            android:textColor="#1c252c"
+            android:textSize="13dp"
+            android:textStyle="bold" />
+
+    </TableRow>
+</TableLayout>
